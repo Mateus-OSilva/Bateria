@@ -23,7 +23,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
         }
 
         if (evento.code ==='Enter') {
-
+            tecla.classList.add('ativa');
         }
     }
 
