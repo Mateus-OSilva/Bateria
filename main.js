@@ -1,8 +1,11 @@
-function tocaSom(idElementoAudio) {
-    const elemento = document.querySelector(idElementoAudio).play();
+function tocaSom(seletorAudio) {
+    const elemento = document.querySelector(seletorAudio).play();
 
     if (elemento === null) {
-        alert('Elemento não encontrado')
+        console.log('Elemento não encontrado')
+    }
+    if (elemento != null) {
+        elemento.play();
     }
 }
 
